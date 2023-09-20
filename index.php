@@ -1,1 +1,0 @@
-<!-- ตัวอย่าง http://agri.vru.ac.th/th/?page=program -->
