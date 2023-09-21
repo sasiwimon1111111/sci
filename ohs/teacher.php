@@ -1,31 +1,19 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-
-    <?php include('../components/style.php'); ?>
-</head>
-
-<body>
-
-    <?php include('../components/navbar.php'); ?>
+<!-- content here -->
+<h1></h1>
+<section class="pt-4 pt-md-0">
     <div class="container">
-        <!-- content here -->
-        <h1></h1>
-        <section class="pt-4 pt-md-0">
-            <div class="container">
-                <!-- Title -->
-                <div class="row mb-2">
-                    <div class="col-12 text-center">
-                        <h3 class="mb-0">บุคลากรสายวิชาการ</h3>
-                        <p class="lead">คณะวิทยาศาสตร์และเทคโนโลยี</p>
-                    </div>
-                </div>
-        
+        <!-- Title -->
+        <div class="row mb-2">
+            <div class="col-12 text-center">
+                <h3 class="mb-0">บุคลากรสายวิชาการ</h3>
+                <p class="lead">คณะวิทยาศาสตร์และเทคโนโลยี</p>
+            </div>
+        </div>
+
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
-                    <img  src="http://sci.vru.ac.th/assets/images/people/IMG_20230513_095343_edit.jpg" class="card-img-top" alt="...">
+                    <img src="http://sci.vru.ac.th/assets/images/people/IMG_20230513_095343_edit.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">อ.ขวัญแข หนุนภักดี</h5>
                         <p class="card-text">สาขาอาชีวอนามัยและความปลอดภัย</p>
@@ -108,9 +96,3 @@
 
 
         <!-- end content here -->
-    </div>
-    <?php include('../components/footer.php'); ?>
-    <?php include('../components/script.php'); ?>
-</body>
-
-</html>
