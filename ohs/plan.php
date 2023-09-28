@@ -120,7 +120,6 @@
             </tr>
         </tbody>
     </table>
-</div>
 
 
 <!-- end content here -->
