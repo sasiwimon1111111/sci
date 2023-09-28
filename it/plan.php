@@ -1,16 +1,4 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-
-    <?php include('../components/style.php'); ?>
-</head>
-
-<body>
-
-    <?php include('../components/navbar.php'); ?>
-    <div class="container">
-        <!-- content here -->
         <!-- content here -->
         <h1>แผนการเรียน</h1>
         <table class="table">
@@ -117,14 +105,8 @@
 
 
 
-        <!-- end content here -->
-    </div>
+ 
 
 
-        <!-- end content here -->
-    </div>
-    <?php include('../components/footer.php'); ?>
-    <?php include('../components/script.php'); ?>
-</body>
 
-</html>
+       
