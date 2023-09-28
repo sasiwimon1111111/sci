@@ -31,11 +31,12 @@
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">ภาพรวม</div>
-            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">โครงสร้าง</div>
-            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">แผนการเรียน</div>
-            <div class="tab-pane fade" id="อาจารย์-tab-pane" role="tabpanel" aria-labelledby="อาจารย์-tab" tabindex="0">อาจารย์</div>
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"> <?php include('overview.php');?></div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><?php include('structure.php');?></div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><?php include('plan.php');?></div>
+            <div class="tab-pane fade" id="อาจารย์-tab-pane" role="tabpanel" aria-labelledby="อาจารย์-tab" tabindex="0"><?php include('teacher.php');?></div>
         </div>
+
 
 
         <!-- end content here -->
